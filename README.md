@@ -3,3 +3,5 @@
 Higher-level programming projects (Python, SQL) for the ALU Software Engineering program.
 
 - [python-data_structures](python-data_structures) - Python - Data Structures: Lists, Tuples
+- [python-hello_world](python-hello_world) - Python - Hello, World
+- [python-more_data_structures](python-more_data_structures) - Python - More Data Structures: Set, Dictionary
