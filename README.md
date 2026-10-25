@@ -7,3 +7,4 @@ Higher-level programming projects (Python, SQL) for the ALU Software Engineering
 - [python-more_data_structures](python-more_data_structures) - Python - More Data Structures: Set, Dictionary
 - [python-if_else_loops_functions](python-if_else_loops_functions) - Python - if/else, loops, functions
 - [python-import_modules](python-import_modules) - Python - import & modules
+- [python-exceptions](python-exceptions) - Python - Exceptions
