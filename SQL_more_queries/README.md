@@ -5,7 +5,7 @@ MySQL users and privileges, table constraints (`NOT NULL`, `DEFAULT`, `UNIQUE`, 
 | File | Description |
 | ---- | ----------- |
 | `0-privileges.sql` | Lists all privileges of the users `user_0d_1` and `user_0d_2` |
-| `1-create_user.sql` | Creates `user_0d_1` with all privileges on the server |
+| `1-create_user.sql` | Creates `user_0d_1` with all privileges on the server (MySQL 8.0.25 privileges listed explicitly) |
 | `2-create_read_user.sql` | Creates the database `hbtn_0d_2` and `user_0d_2`, with only `SELECT` on it |
 | `3-force_name.sql` | Creates the table `force_name`, whose `name` can't be null |
 | `4-never_empty.sql` | Creates the table `id_not_null`, whose `id` defaults to 1 |
