@@ -16,3 +16,4 @@ Higher-level programming projects (Python, SQL) for the ALU Software Engineering
 - [SQL_introduction](SQL_introduction) - SQL - Introduction
 - [SQL_more_queries](SQL_more_queries) - SQL - More queries
 - [python-network_0](python-network_0) - Python - Network #0
+- [python-network_1](python-network_1) - Python - Network #1
