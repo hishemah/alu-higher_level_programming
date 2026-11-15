@@ -1,0 +1,61 @@
+The ``1-my_list`` module
+========================
+
+Using ``MyList``
+----------------
+
+    >>> MyList = __import__('1-my_list').MyList
+
+A MyList is a list:
+
+    >>> issubclass(MyList, list)
+    True
+    >>> my_list = MyList()
+    >>> isinstance(my_list, list)
+    True
+
+An empty list prints as an empty list:
+
+    >>> my_list.print_sorted()
+    []
+
+Elements are printed in ascending order, and the list itself is unchanged:
+
+    >>> my_list.append(1)
+    >>> my_list.append(4)
+    >>> my_list.append(2)
+    >>> my_list.append(3)
+    >>> my_list.append(5)
+    >>> print(my_list)
+    [1, 4, 2, 3, 5]
+    >>> my_list.print_sorted()
+    [1, 2, 3, 4, 5]
+    >>> print(my_list)
+    [1, 4, 2, 3, 5]
+
+Negative numbers and duplicates are sorted too:
+
+    >>> other = MyList([3, -1, 0, -7, 3, 2])
+    >>> other.print_sorted()
+    [-7, -1, 0, 2, 3, 3]
+    >>> other
+    [3, -1, 0, -7, 3, 2]
+
+A list that is already sorted, or has a single element:
+
+    >>> MyList([1, 2, 3]).print_sorted()
+    [1, 2, 3]
+    >>> MyList([42]).print_sorted()
+    [42]
+
+A list sorted in reverse order:
+
+    >>> MyList([5, 4, 3, 2, 1]).print_sorted()
+    [1, 2, 3, 4, 5]
+
+The sorted result is a plain list, printed once, and nothing is returned:
+
+    >>> result = MyList([2, 1]).print_sorted()
+    [1, 2]
+    >>> result is None
+    True

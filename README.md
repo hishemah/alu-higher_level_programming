@@ -11,3 +11,4 @@ Higher-level programming projects (Python, SQL) for the ALU Software Engineering
 - [python-classes](python-classes) - Python - Classes and Objects
 - [python-more_classes](python-more_classes) - Python - More Classes and Objects
 - [python-everything_is_object](python-everything_is_object) - Python - Everything is object
+- [python-inheritance](python-inheritance) - Python - Inheritance
