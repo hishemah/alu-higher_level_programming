@@ -17,3 +17,6 @@ Higher-level programming projects (Python, SQL) for the ALU Software Engineering
 - [SQL_more_queries](SQL_more_queries) - SQL - More queries
 - [python-network_0](python-network_0) - Python - Network #0
 - [python-network_1](python-network_1) - Python - Network #1
+- [python-test_driven_development](python-test_driven_development) - Python - Test-driven development
+- [python-almost_a_circle](python-almost_a_circle) - Python - Almost a circle
+- [python-object_relational_mapping](python-object_relational_mapping) - Python - Object-relational mapping

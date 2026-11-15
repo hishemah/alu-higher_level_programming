@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+"""List all states whose name matches the argument, sorted by states.id.
+
+The state name is passed as a query parameter, so this version is safe
+from SQL injections.
+
+Arguments: mysql username, mysql password, database name, state name
+"""
+import sys
+import MySQLdb
+
+
+if __name__ == "__main__":
+    db = MySQLdb.connect(host="localhost", port=3306, user=sys.argv[1],
+                         passwd=sys.argv[2], db=sys.argv[3])
+    cur = db.cursor()
+    cur.execute("SELECT * FROM states WHERE name LIKE BINARY %s "
+                "ORDER BY states.id ASC", (sys.argv[4],))
+    for row in cur.fetchall():
+        print(row)
+    cur.close()
+    db.close()
