@@ -1,0 +1,44 @@
+The ``5-text_indentation`` module
+=================================
+
+Using ``text_indentation``
+--------------------------
+
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Two new lines are printed after each . ? and :
+
+    >>> text_indentation("Hello. How are you? Fine: thanks")
+    Hello.
+    <BLANKLINE>
+    How are you?
+    <BLANKLINE>
+    Fine:
+    <BLANKLINE>
+    thanks
+
+No line starts or ends with a space:
+
+    >>> text_indentation("   Holberton School   ")
+    Holberton School
+    >>> text_indentation("One.    Two")
+    One.
+    <BLANKLINE>
+    Two
+
+A text without those characters is printed as it is:
+
+    >>> text_indentation("No punctuation here")
+    No punctuation here
+    >>> text_indentation("")
+
+The text must be a string:
+
+    >>> text_indentation(12)
+    Traceback (most recent call last):
+    ...
+    TypeError: text must be a string
+    >>> text_indentation(None)
+    Traceback (most recent call last):
+    ...
+    TypeError: text must be a string
