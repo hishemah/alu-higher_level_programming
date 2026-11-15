@@ -8,3 +8,4 @@ Higher-level programming projects (Python, SQL) for the ALU Software Engineering
 - [python-if_else_loops_functions](python-if_else_loops_functions) - Python - if/else, loops, functions
 - [python-import_modules](python-import_modules) - Python - import & modules
 - [python-exceptions](python-exceptions) - Python - Exceptions
+- [python-classes](python-classes) - Python - Classes and Objects
