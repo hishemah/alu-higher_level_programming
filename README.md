@@ -14,3 +14,4 @@ Higher-level programming projects (Python, SQL) for the ALU Software Engineering
 - [python-inheritance](python-inheritance) - Python - Inheritance
 - [python-input_output](python-input_output) - Python - Input/Output
 - [SQL_introduction](SQL_introduction) - SQL - Introduction
+- [SQL_more_queries](SQL_more_queries) - SQL - More queries
