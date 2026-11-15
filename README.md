@@ -9,3 +9,4 @@ Higher-level programming projects (Python, SQL) for the ALU Software Engineering
 - [python-import_modules](python-import_modules) - Python - import & modules
 - [python-exceptions](python-exceptions) - Python - Exceptions
 - [python-classes](python-classes) - Python - Classes and Objects
+- [python-more_classes](python-more_classes) - Python - More Classes and Objects
