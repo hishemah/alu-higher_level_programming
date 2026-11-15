@@ -4,11 +4,11 @@ Making HTTP requests from Python with `urllib` and `requests`: reading bodies an
 
 | File | Description |
 | ---- | ----------- |
-| `0-hbtn_status.py` | Fetches `https://alu-intranet.hbtn.io/status` with `urllib` |
+| `0-hbtn_status.py` | Fetches `https://intranet.hbtn.io/status` with `urllib` |
 | `1-hbtn_header.py` | Displays the `X-Request-Id` header of a response, with `urllib` |
 | `2-post_email.py` | Sends a POST request with an email, with `urllib` |
 | `3-error_code.py` | Displays the body or the HTTP error code, with `urllib` |
-| `4-hbtn_status.py` | Fetches `https://alu-intranet.hbtn.io/status` with `requests` |
+| `4-hbtn_status.py` | Fetches `https://intranet.hbtn.io/status` with `requests` |
 | `5-hbtn_header.py` | Displays the `X-Request-Id` header of a response, with `requests` |
 | `6-post_email.py` | Sends a POST request with an email, with `requests` |
 | `7-error_code.py` | Displays the body or the HTTP error code, with `requests` |
