@@ -15,3 +15,4 @@ Higher-level programming projects (Python, SQL) for the ALU Software Engineering
 - [python-input_output](python-input_output) - Python - Input/Output
 - [SQL_introduction](SQL_introduction) - SQL - Introduction
 - [SQL_more_queries](SQL_more_queries) - SQL - More queries
+- [python-network_0](python-network_0) - Python - Network #0
